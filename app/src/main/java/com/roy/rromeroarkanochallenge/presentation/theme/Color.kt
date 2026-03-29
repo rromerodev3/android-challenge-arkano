@@ -1,4 +1,4 @@
-package com.roy.rromeroarkanochallenge.ui.theme
+package com.roy.rromeroarkanochallenge.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
