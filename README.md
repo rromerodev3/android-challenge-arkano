@@ -59,4 +59,3 @@ Implementaria Material Design 3 y mejoraria el look and feel de la App.
 Si utilizaste AI, en qué partes y cómo:
 Par el uso de IA, personalmente prefiero delegar actividades repetitivas y hacer consultas específicas.
 La arquitectura, decisiones tecnicas y logica prefiero definirlas yo, en resumen, prefiero utilizar IA mas como una herramienta de productividad como complemento.
-Implementaria Material Design 3 en los composables y mejoraria el look and feel de la app.
