@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RRomeroArkanoChallenge</string>
+    <string name="character_alive_string">Alive</string>
+    <string name="character_death_string">Death</string>
+    <string name="character_unknown_string">Unknown</string>
+    <string name="loading_string">Loading items…</string>
+    <string name="error_string">Something went wrong</string>
+    <string name="retry_btn">Retry</string>
 </resources>
