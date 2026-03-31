@@ -48,7 +48,7 @@ fun CharacterList(
         ) {
             CharacterItem(
                 character = it,
-                modifier = modifier
+                modifier = Modifier
                     .fillMaxWidth()
                     .padding(
                         horizontal = dimensionResource(R.dimen.padding_medium),
