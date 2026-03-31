@@ -10,9 +10,12 @@ import kotlin.collections.map
 class CharacterRepositoryImpl @Inject constructor(
     private val remoteDataSource: RemoteDataSource
 ): CharacterRepository {
-    override suspend fun getCharacters(): List<Character> {
-        return remoteDataSource.getCharacters()
-            .results
-            .map { it.toDomain() }
+    override suspend fun getCharacters(): Result<List<Character>> {
+        return try {
+            val charactersDto = remoteDataSource.getCharacters()
+            Result.success(charactersDto.results.map { it.toDomain() })
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
     }
 }

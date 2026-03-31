@@ -8,10 +8,6 @@ class GetCharactersUseCase @Inject constructor(
     private val repository: CharacterRepository
 ) {
     suspend operator fun invoke(): Result<List<Character>> {
-        return try {
-            Result.success(repository.getCharacters())
-        } catch (e: Exception) {
-            Result.failure(e)
-        }
+        return repository.getCharacters()
     }
 }
